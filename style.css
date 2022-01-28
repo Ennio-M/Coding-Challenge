@@ -1,0 +1,76 @@
+body{
+  background-image: url(background.jpg);
+  background-size:cover;
+  background-repeat: no-repeat;
+  font-family: 'Dongle', sans-serif;
+}
+
+.container{
+  width: 1000px;
+  height: 700px;
+  margin: auto;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 20px;
+  padding: 100px;
+  box-sizing: border-box;
+
+}
+
+.logo{
+  height: 90px;
+  display: block;
+  margin: auto;
+}
+
+#title{
+  color:rgb(0,255,0);
+  font-size: 50px;
+  text-align: center;
+  margin: 0;
+}
+
+.buttons{
+  width: 800px;
+  height: 40px;
+  background-color: rgb(0,255,0);
+  text-align: center;
+  padding-top: 9px;
+  box-sizing:border-box;
+}
+
+main{
+  color:#ffffff;
+}
+
+.scooter{
+  line-height: 120%;
+  margin-top: 20px;
+}
+
+.scooter > span:nth-child(2){
+  font-size: 40px;
+}
+
+.scooter > div:nth-child(3){
+  font-size: 25px;
+}
+
+.scooter > div:last-child{
+  height: 25px;
+  border-radius: 5px;
+}
+
+.charge1{
+  width: 300px;
+  background-color: orange;
+}
+
+.charge2{
+  width: 500px;
+  background-color: green;
+}
+
+.charge3{
+  width: 200px;
+  background-color: red;
+}
